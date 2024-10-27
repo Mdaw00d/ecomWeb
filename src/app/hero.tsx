@@ -225,8 +225,8 @@ function Hero() {
         </div>
       </div>
       <img
-        className="md:hidden"
-        src="https://cdn.create.vista.com/downloads/0d580ee7-3241-41e5-bb21-47ec3df2dc0a_1024.jpeg"
+        className="hidden md:block"
+        src="Image1.png"
         alt=""
       />
       {/* Heading */}
