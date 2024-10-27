@@ -202,7 +202,7 @@ function Hero() {
       {/* Banner Starts */}
       <div className=" bg-customBlue p-52 pb-9 ml-11 mr-9 rounded-2xl hidden lg:block">
         <img
-          className="-mb-80 ml-[254px] -mt-40 h-[362px] w-[800px] absolute bottom-[358px]  hidden lg:block"
+          className="-mb-80 ml-[250px] -mt-40 h-[362px] w-[800px] absolute bottom-[368px]  hidden md:block"
           src="image1.png"
           alt=""
         />
@@ -225,8 +225,8 @@ function Hero() {
         </div>
       </div>
       <img
-        className="hidden md:block"
-        src="Image1.png"
+        className="md:hidden"
+        src="https://cdn.create.vista.com/downloads/0d580ee7-3241-41e5-bb21-47ec3df2dc0a_1024.jpeg"
         alt=""
       />
       {/* Heading */}
