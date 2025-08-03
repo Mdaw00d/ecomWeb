@@ -200,30 +200,36 @@ function Hero() {
       <br />
       <br />
       {/* Banner Starts */}
-      <div className=" bg-customBlue p-52 pb-9 ml-11 mr-9 rounded-2xl hidden lg:block">
-        <img
-          className="-mb-80 ml-[250px] -mt-40 h-[362px] w-[800px] absolute bottom-[368px]  hidden md:block"
-          src="image1.png"
-          alt=""
-        />
+     <div className="relative bg-customBlue p-20 rounded-2xl hidden lg:block overflow-hidden ml-11 mr-9">
+  {/* Smartwatch Image */}
+  <img
+    className="absolute top-0 right-10 h-[362px] w-[800px] hidden md:block"
+    src="image1.png"
+    alt="Smartwatch"
+  />
 
-        <h2 className="text-white -ml-20 -mt-32 font-sans font-normal text-2xl  ">
-          Best Deal Online on smart watches{" "}
-        </h2>
-        <h1 className="text-white mt-3 -ml-20 font-semibold text-6xl ">
-          SMART WEARABLE.
-        </h1>
-        <h2 className="text-white mt-4 -ml-20 text-4xl">UP to 80% OFF</h2>
-        <div>
-          <div className="bg-white h-2 w-6 mt-20 -ml-20 rounded-2xl"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-12 -mt-2"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-8 -mt-2"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-4 -mt-2"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-0 -mt-2"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-[-16px] -mt-2"></div>
-          <div className="bg-white h-2 w-2 rounded-2xl -ml-[-32px] -mt-2"></div>
-        </div>
-      </div>
+  {/* Text Content */}
+  <div className="text-white max-w-xl ml-10">
+    <h2 className="font-sans font-normal text-2xl">
+      Best Deal Online on smart watches
+    </h2>
+    <h1 className="mt-3 font-semibold text-6xl">
+      SMART WEARABLE.
+    </h1>
+    <h2 className="mt-4 text-4xl">UP to 80% OFF</h2>
+
+    {/* Dots */}
+    <div className="flex gap-2 mt-10">
+      <div className="bg-white h-2 w-6 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+      <div className="bg-white h-2 w-2 rounded-2xl"></div>
+    </div>
+  </div>
+</div>
       <img
         className="md:hidden"
         src="https://cdn.create.vista.com/downloads/0d580ee7-3241-41e5-bb21-47ec3df2dc0a_1024.jpeg"
