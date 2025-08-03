@@ -204,7 +204,7 @@ function Hero() {
   {/* Smartwatch Image */}
   <img
     className="absolute top-0 right-10 h-[362px] w-[800px] hidden md:block"
-    src="image1.png"
+    src={image1.png}
     alt="Smartwatch"
   />
 
